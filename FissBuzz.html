@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>FizzBuzz</title>
+	<meta charset="utf-8">
+	<style>
+
+	</style>
+</head>
+<body>
+<script>//Начало скрипта
+// Начинаем цикл For для перебора чисел от 1 до 100
+for (let i = 1; i <= 100; i++){
+	//console.log(i); //Тест вывел всечисла от 0 и меньше 100
+	if (i % 3 == 0 && i % 5 ==0) console.log("FizzBuzz");
+	//Если число делиться  без остатка на 3 и 5 то выводим FizzBuzz в консоль
+	else if(i % 3 == 0) console.log("Fizz");
+	//Если число делиться  без остатка на 3 то выводим Fizz в консоль	
+	else if(i % 5 == 0) console.log("Buzz");
+	//Если число делиться  без остатка на 5 то выводим Buzz в консоль	
+	else console.log(i);	
+	//Если число не делиться  без остатка на 3 и/или 5 то выводим само число в консоль
+//Консаль можно открыть через F12 в браузере(Firefox)
+};
+</script> // Конец скрипта
+
+</body>
+</html>
